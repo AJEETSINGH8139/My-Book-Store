@@ -1,6 +1,29 @@
 .footer-container{
-    background-color: #222;
-    padding: 5rem 0;
+    display: flex;
+    background-color: #37474F;
+    padding: 15px;
+}
+
+.about{
+    width: 45%;
+    margin-right: 30px;
+    color: whitesmoke;
+    margin-left: 15px;
+}
+
+.detail-para{
+    text-align: justify;
+}
+
+.margin-text{
+    margin: 30px 0px;
+}
+
+.containerf{
+    /* width: 70%; */
+    
+    padding-left: 35px;
+    border-left: thick double whitesmoke;
 }
 
 .footer-container h2{
@@ -8,23 +31,23 @@
 }
 
 .footer-container p{
-    color:var(--white-color);
-    padding-top: 2rem;
+    color: whitesmoke;
+    padding-top: 1rem;
     font-size: 0.8rem;
 }
 
 .footer-form{
-    padding-top: 3rem;
+    padding-top: 1rem;
     width: 50%;
 }
 
 .form-group{
-    padding: 1rem 0;
+    padding: 0.5rem 0;
 }
 
 .form-label{
     display:inline-block;
-    color: var(--white-color);
+    color: whitesmoke;
     padding-bottom: 10px;
 }
 
@@ -38,14 +61,23 @@
 
 .form-submit{
     display: inline-block;
-    color: var(--white-color);
+    color: whitesmoke;
     text-decoration: none;
     background-color: var(--primary-color-bright);
     padding: 0.8rem 2rem;
     transition: 0.3s ease-in;
+    border-radius: 5px;
+    border: none;
 }
 
 .form-submit:hover{
-    background-color: var(--white-color);
+    background-color: #FFB74D;
     color: #333;
+}
+
+.copyright{
+    width: 100%;
+    background-color: #37474F;
+    color: whitesmoke;
+    text-align: center;
 }
