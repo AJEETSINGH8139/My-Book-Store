@@ -10,7 +10,7 @@ const Showcase = () => {
             
             <div className="overlay"></div>
             <div className="showcase-content">
-                <h1>Best <span className="text-primary">Books </span>Available</h1>
+                <h1>Best-Selling <span className="text-primary">Books </span>Available</h1>
                 <p>Welcome to My Book Store</p>
                 
                 <SearchInputForm darkTheme={ true }/>
