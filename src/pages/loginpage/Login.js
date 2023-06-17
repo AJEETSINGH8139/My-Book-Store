@@ -1,5 +1,5 @@
 import React from 'react';
-import AuthBgImg from '../../assets/auth-bg.jpg';
+import AuthBgImg from '../../assets/auth-bg-signin.png';
 import Navbar from '../../components/layouts/navbar/Navbar';
 import AuthForm from '../../components/forms/authForm/AuthForm';
 

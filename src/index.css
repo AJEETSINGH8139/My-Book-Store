@@ -45,7 +45,7 @@ span{
 .button-primary{
     display: inline-block;
     padding: 1rem 2rem;
-    background-color: var(--primary-color-bright);
+    background-color: #2E7D32;
     color: #fff;
     text-decoration: none;
     margin-top: 2rem;
@@ -54,8 +54,9 @@ span{
     border: none;
     font-family: Chivo Mono;
     font-size: 1rem;
+    border-radius: 7px;
 }
 
 .button-primary:hover{
-    background-color: #222;
+    background-color: #689F38;
 }
