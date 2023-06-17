@@ -43,7 +43,7 @@ const Navbar = ({ darkTheme, darkText }) => {
     return (
         <section className={ `navbar-container ${ darkTheme ? 'background-dark relative' : 'background-transparent' } ` }>
             <div className="container flex justify-between align-center">
-                <Link to="/" className="logo">Book<span className="text-primary">worm</span></Link>
+                <Link to="/" className="logo">My<span className="text-primary">BOOK</span>Store</Link>
 
                 {user ? showLogoutAndCart : showLoginandSignUp }
             </div>
