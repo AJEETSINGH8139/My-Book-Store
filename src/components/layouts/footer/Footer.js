@@ -4,9 +4,9 @@ import emailjs from "@emailjs/browser";
 
 const Footer = () => {
   const form = useRef();
-  const serviceId = "service_44botzw";
-  const templateId = "template_mz08lnq";
-  const publicKey = "uCrsPEyakNRLUAnci";
+  const serviceId = "service_uwkyyfv";
+  const templateId = "template_sj961yp";
+  const publicKey = "xolJZQBdj0aJgY58S";
 
   const handleSubmit = (e) => {
     e.preventDefault();
