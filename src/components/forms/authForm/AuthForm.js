@@ -35,6 +35,12 @@ const AuthForm = ({ buttonName }) => {
         
     }
 
+    const handleKeyDown = (event) => {
+        if (event.key === 'Enter') {
+            handleSubmit();
+        }
+      };
+
     return (
         <form onSubmit={handleSubmit}>
            {buttonName === "Sign Up" && (
@@ -80,6 +86,7 @@ const AuthForm = ({ buttonName }) => {
                     type="submit" 
                     className='button-primary' 
                     value={buttonName} 
+                    onKeyDown={handleKeyDown}
                 />
             </div>
         </form>
